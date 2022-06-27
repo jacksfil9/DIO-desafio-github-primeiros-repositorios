@@ -1,0 +1,2 @@
+keylogger - virus que observa o que você digita
+phishing - pesca teus dados através de emails, imagens, links propriamente ditos
