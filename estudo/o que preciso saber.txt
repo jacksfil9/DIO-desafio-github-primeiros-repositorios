@@ -1,0 +1,7 @@
+em ordem :
+lógica program.
+git
+java
+python
+
+BD
