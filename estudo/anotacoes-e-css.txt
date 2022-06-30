@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- <h1> Título da página </h1> -->
+<!-- <h1> Título da seção </h2> -->
+<!-- <h3> Título do artigo </h3> -->
+<!-- <p> Conteúdo de artigo </p> -->
+
+<!-- <a> Link </a> -->
+<!-- <a href="linkedin.com">LinkedIn</a> -->
+<!-- <a href="mailto:jack@gmail.com">E-mail</a> ("email to")--> 
+<!-- <a target="_blank"> Link </a> Abre o link em outra aba --->
+
+<!-- <img src="img/avatar.jpg"> colocar imagem, é obrigatório e a imagem precisa estar no diretório.
+<!-- <img alt="Foto X do jackson"> colocar descrição na imagem e significado.
+
+<!-- <ul> uma lista onde a ordem dos itens não é importante. -->
+<!-- <ol> a ordem dos itens É IMPORTANTE. -->
+<!-- <li> é um dos itens da lista -->
+
+<!-- CSS -->
+a imagem do fundo, cor e posicionamento.
+background-color; 
+background-image; 
+background-position.
+<!-- O QUE SÃO SELETORES --> Uma regra CSS é formada por um seletor ou vários seletores
+ID X CLASS
+Uma classe é precedida por um ".header"
+Um ID é precedido por um "#header"
+Só pode ser usado um ID por vez na página.
+<!-- PRINCIPAIS SELETORES -->
+BOX model
+margin -> border -> padding ( espaçamento entre bordas e o conteudo) -> content.
+padding-top; padding-right; padding-bottom; padding-left.
+border-top; border-right; border-bottom; border-left.
+CRIAR UMA BORDA ESPECÍFICA
+".post {
+	border-top-width: 3px;
+	border-top-color: blue;
+	border-top-style: solid;
+Border radius : arredonda borda de elementos.
+
+Font Family
+font-family: Verdana, Arial; ( Adicionando duas fontes, a segunda como backup)
+font-size: tamanho da fonte.
+font-style: é o estilo, normal, italic.
+font-weight: peso comum da fonte e negrito (Bold).
+text-transform: uppercase; ( Caixa alta)
+text-transform: lowercase; ( minúsculo)
+text-transform: capitalize (Todas as primeiras letras de cada palavra em maiúsculo)
+text-decoration: underline, overline, line-through ( linha ao centro cortando a palavra)	
+	
+
+"ul" list-style-type: square; (altera o símbolo para um quadrado)
+"ol" list-style-type: upper-roman; ( altera o marcador para algarismo romano maiúsculo)
+"ul" list-style-type: "\1F44D"; ( altera o marcador para um símbolo, código= emoji de joinha )
+"ul" list-style-image: url("imagem.jpg/png") altera o marcador para uma imagem)
+"ul" list-style-type: none; ( remove)
+
+dimensão e alinhamento no css
+Width: largura
+height: altura
+max-width: largura máxima que o elemento pode ter.
+max-height: altura máxima que o elemento pode ter.
+
+Margin com valor "auto". Se adequa ao tamanho da tela.
+Text align: alinha texto com centro, esquerda, direita, justificado.
+
+<html>
+	
