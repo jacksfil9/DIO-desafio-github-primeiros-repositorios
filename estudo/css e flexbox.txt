@@ -1,0 +1,26 @@
+flexbox
+construir páginas que se adaptem as diversas resoluções. Assertividade dos layouts.
+Diferença entre Flex Container e Flex Item
+flex Container = é a tag que envolve os itens, nela que será aplicada a propriedade "display: flex'.
+Display:flex = torna a tag de um elemento do tipo flex container e todos os seus filhos diretos da tag viram flex itens.
+flex-direction = estabelece o eixo principal do container, define a direção dos flex itens que são colocados no flex container.
+"flex-direction: row" ( PADRÃO) sentido padrão do texto. 1,2,3,4.
+"flex-direction: row-reverse" ( OPOSTO) sentido oposto. 4,3,2,1.
+"flex-direction: column" (COLUNA) de cima pra baixo.
+"flex-direction: column-reverse" (REVERSO) de baixo pra cima.
+flex-wrap = define se os itens vão ou não quebrar linha.
+"flex-wrap: nowrap" (PADRÃO) não permite a quebra de linha.
+"flex-wrap: wrap" Permite a quebra de linha.
+"flex-wrap: wrap-reverse" Permite a quebra de linha ao contrário. Se mantém na linha de cima e joga o resto para baixo.
+flex-flow: um atalho para Direction e Wrap; Seu uso não é tão comum.
+justify-content
+align-itens
+align-content
+
+flex item = sao os elementos filhos diretos do Flex container. E também pode se tornar um Flex container.
+flex-grow
+flax-basis
+flex-shrink
+flex
+order
+align-self
